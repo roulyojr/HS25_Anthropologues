@@ -1,2 +1,2 @@
 # HS25_Anthropologues
-Exercice
+* __[table of contents](documentation/Home.md)__
