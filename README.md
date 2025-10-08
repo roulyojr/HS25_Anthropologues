@@ -1,2 +1,2 @@
 # HS25_Anthropologues
-* __[table of contents](documentation/Home.md)__ 
+* __[table of contents](Documentation/Home.md)__ 
