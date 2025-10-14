@@ -1,4 +1,4 @@
-# The scientific field of astronomy (15th-20th centuries)
+# La recherche en anthropologie : acteurs, idées et influences
 
 
 Cette recherche a pour but de s'intéresser à la question de la filiation d'une idée théorique définie au sein d'une communauté de recherche anthropologique, en analysant les dynamiques nationales et internationales qui la constituent et participent à sa propagation. Plus simplement, il est question d'analyser la constitution de réseaux de recherche et leurs spécificités nationales au cours des XIXe et XXe siècles
