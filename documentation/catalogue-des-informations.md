@@ -22,6 +22,7 @@
 
 ### Lieu
 - nom
+- nationalité
 - type
 - coordonnées géographiques
 
