@@ -5,13 +5,12 @@
 ### Personne
 - nom
 - date de naissance
-- lieu de naissance
-- origine
 - formation
-- publications
 - courant de pensée
 - langue
 
+### Naissance
+- date
 
 ### Organisation
 - nom
@@ -23,26 +22,35 @@
 ### Lieu
 - nom
 - nationalité
-- type
 - coordonnées géographiques
 
+### Type de lieu
+- nom
+- définition
 
-### Oeuvre
+
+### Oeuvre(s)
 - référence bibliographique
 - année de publication
 - lieu de publication
+- langue
 
+### Birth
+- date
 
 <br/>
 
 ## Relations entre objets
 
-N.B. Il n'y a ici que quelques exemples, généralement le domaine des relations est le plus riche et important
-
 - personne est née dans lieu
-- personne est élève de personne
-- personne est membre de organisation
-- oeuvre a pour auteur personne
-- oeuvre a lieu de publication
-- oeuvre a pour langue
-- personne enseigne dans organisation 
+- personne suit des cours à
+- personne fréquente
+- personne obtient un poste d'enseignement dans
+- personne produit telle oeuvre
+- oeuvre influence
+- organisation influence
+- organisation est située à 
+- organisation subventionne
+- lieu géographique a tel type
+- naissance est située à
+- naissance amène à la vie 
