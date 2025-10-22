@@ -2,7 +2,7 @@
 
 
 
-### Personne
+### Personne(s)
 - nom
 - date de naissance
 - formation
