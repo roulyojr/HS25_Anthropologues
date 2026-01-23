@@ -3,42 +3,37 @@
 
 
 ### Personne(s)
-- nom
-- date de naissance
-- formation
-- courant de pensée
-- langue
+- nom (ex. Jean Lacour)
+- formation (ex. philosophie, sciences religieuses)
+- courant de pensée (ex. holisme)
+- langue (ex. français)
 
 ### Naissance
-- date
+- date (ex. 5.6.1924)
 
 ### Organisation
-- nom
-- type
-- siège
-- fondation
+- nom (ex. Ecole des Hautes Etudes en Sciences Sociales(EHESS))
+- type (ex. Association ou Université)
+- siège (ex. Lyon)
+- fondation (ex. 8.4.1902)
 
 
 ### Lieu
-- nom
-- nationalité
-- coordonnées géographiques
+- nom (ex. Francfort)
+- nationalité (ex. allemande)
+- coordonnées géographiques (ex. 50.62464857874364, 3.062632247883132)
 
 ### Type de lieu
-- nom
-- définition
+- dénomination (ex. ville)
+- définition (capitale)
 
 
 ### Oeuvre(s)
-- référence bibliographique
-- année de publication
-- lieu de publication
-- langue
+- référence bibliographique (ex. La Pensée sauvage, Plon)
+- année de publication (1962)
+- lieu de publication (Rennes)
+- langue (allemand)
 
-### Birth
-- date
-
-<br/>
 
 ## Relations entre objets
 
