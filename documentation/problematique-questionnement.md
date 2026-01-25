@@ -22,3 +22,12 @@ En adoptant une démarche exploratoire, il s'agit de mettre en évidence l'appar
 * Appartenance à une école / association nationale ou transnationale
 * Interdisciplinarité des études menées
 * Correspondances et réseaux de connaissance
+
+## Problématique
+
+Pour analyser l'évolution des idées et le développement de la discipline qu'est l'anthropologie, le travail de recherche s'oriente vers l'analyse du parcours de chercheurs et de leur production scientifique. 
+## Questions de recherche
+
+## Aspects de l'information à collecter
+
+* 

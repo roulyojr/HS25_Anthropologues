@@ -16,7 +16,7 @@ Cette recherche a pour but de s'intéresser à la question de la filiation d'une
 ### Création de la base de données
 
 *  [Modèle conceptuel] 
-*  [Commentaire du modèle conceptuel]
+*  [Commentaire du modèle conceptuel](commentaire_modele_conceptuel.md)
 *  [Modèle logique ou relationnel]
 ### Récupération et analyse de données existantes
 
