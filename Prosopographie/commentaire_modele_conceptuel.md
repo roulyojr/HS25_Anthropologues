@@ -1,105 +1,82 @@
 Ce document contient le commentaire, avec exemples, du modèle conceptuel
 
-## Birth
-Naissance de la personne
+## Formation
+Une formation universitaire ou autre parcours équivalent
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-Date de naissance
+Date de début et de fin de la formation, type (philosophie, philologie, ethnographie, etc)
 
 ### Relations
-Localisation de la naissance
-Donne vie à une personne
+Localisation du lieu de formation
+(Génère une idée théorique)
+
 
 ## Person
-
-Tout être humain. 
-
-### Propriétés
-
-Nom standard (aucun surnom n'est généralement donné dans la littérature scientifique), type de formation (philosophie, anthropologie, ethnographie, histoire, géographie ou autres), courant de pensée (influences principales et générales : structuralisme, fonctionnalisme ou autre) et langue.
+Tout être humain.
 Il s'agit d'une classe objet (persistent item)
 
+### Propriétés
+Nom standard, date de naissance et de décès, courant de pensée (influences principales et générales : structuralisme, fonctionnalisme ou autre) et nationalité.
+
+
+## Fréquentation
+Fréquenter un organisme pendant une période donnée (entretien des contacts réguliers ou ponctuels avec une organisation, dont le rôle qui y est joué peut différer (professeur ordinaire, invité, étudiant))
+
+Il s'agit d'une classe temporalité (temporal entity)
+
 ### Relations
+Une relation de fréquentation peut comprendre une et une seule personne, une et une seule production et on peut associer une (et une seule) organisation auprès de laquelle l'activité est exercée.
 
-Produit (création d'une oeuvre ou d'un écrit scientifique)
-
-Fréquente (entretien des contacts réguliers ou ponctuels avec une organisation)
-
-Obtient un poste d'enseignement (est titulaire d'une chaire ou d'un département qui lui permet de développer ses recherches)
-
-Suit des cours à (sous la direction de tel professeur)
 
 ## Organisation
-
 Toute groupe d'êtres humains constitué de plus de deux personnes, entretenant des rapports réguliers
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-
-Nom, type (organisation privée, universitaire, association), siège (lieu du siège), fondation (de l'institution)
+Nom, définition (organisation privée, universitaire, association), année de fondation (de l'institution)
 
 ### Relations
+Est situé à un emplacement géographique
 
-Influence (transfert de domaine de recherche ou d'idée entre deux institutions ou plus)
 
-Subventionne la recherche (soutien actif d'une organisation à la création d'un travail scientifique d'un sujet x)
-
-Est situé à : endroit géographique
-
-Une relation réfléxive de spécialisation, termes plus génériques associés à des termes plus précis.
-Par exemple 'recherche en psychologie comportementale' spécialise le terme de 'université'.
-
-## Oeuvre
-
-Écrit scientifique, conférence audio/audiovisuelle, émission
+## Production
+Écrit scientifique, conférence audio/audiovisuelle, émission, essai littéraire
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-
-Référence de la publication, année(s) de parution, langue d'origine et traductions éventuelles, lieu de production
+Titre, année(s) de parution, revue, maison d'édition, langue originale
 
 ### Relations
+Mobilise une idée générée lors du parcours académique 
 
-Influence (modifie ou créer un intérêt chez une personne qui produira un travail scientifique s'aidant des méthodes, idées ou arguments avancés par l'ouvrage scientifique)
 
-## Geographical place
-
+## Emplacement géographique
 Lieu géographique
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-
-Nom du lieu, nation où il est situé, coordonnées géographiques
+Nom du lieu, État où il est situé, coordonnées géographiques
 
 ### Relations
-
 A comme type (caractérisation du lieu en fonction de critères topographiques, sociaux, technologiques ou historiques)
 
-## Geographical place type
 
-Type d'endroit représenté par la place géographique
+## Geographical place type
+Type d'endroit représenté par l'emplacement géographique
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-
 Nom, définition (ville, capitale, village, région)
 
 ### Relations
-
 Une relation réfléxive de spécialisation, termes plus génériques associés à des termes plus précis.
 Par exemple 'métropole' spécialise le terme de 'ville'.
 
-## Pursuit (pas intégré dans le modèle pour l'instant)
 
-Le fait d'avoir telle occupation ou activité durant telle période 
-Il s'agit d'une classe temporalité (temporal entity)
-
-Exemple: "Kepler was a mathematics teacher at a seminary school in Graz" (Wikipedia)
+## Tag
+Un mot clé qui introduit un classement de recherche, généralement lié au questionnement.
 
 ### Relations
-
-Une _Pursuit_ peut comprend une et une seule personne, une et une seule occupation (ces deux relations sont nécessaires) et éventuellement on peut associer une (et une seule) organisation auprès de laquelle l'activité est exercée.
-
-Si plusieurs organisation sont concernées par une activité, plusieurs individus de la classe _Pursuit_ seront créées.
+Relation réflexive (d'un classe vers elle même) qui créer une hiérarchie de mots clés.
 

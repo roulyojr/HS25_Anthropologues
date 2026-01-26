@@ -5,29 +5,22 @@ En adoptant une démarche exploratoire, il s'agit de mettre en évidence l'appar
 ## Questions de recherche
 
 * Dans quels contextes nationaux sont nées les premières écoles dédiées à l'anthropologie ?
+* De quelles disciplines proviennent les personnes qui pratiquent l'anthropologie à ses débuts
 * Quel contexte interdisciplinaire permet de propager de nouvelles thèses dominantes en anthropologie ?
-* Y a-t-il un rapport entre le financement des centres de recherche et la prégnance des modèles théoriques dominants à une époque donnée ?
+* Le fait de fréquenter une organisation (ou une autre) influence-t-il le type d'idées produites ou développées
 * Y a-t-il des tendances nationales quand à l'apport d'arguments théoriques en anthropologie ?
-* La mutation des théories et des idées exprimées est-elle fonction de la vitesse de propagation de l'information ?
-* Jusqu'à quel point peut-on considérer qu'une idée est la même, malgré qu'elle subisse des modifications minimes ?
 
 
 ## Aspects de l'information à collecter
 
-* Origines géographiques des anthropologues
-* Lieu de formation préuniversitaire et universitaire
-* Contacts avec l'étranger
-* Lieu et pays de développement des principales chaires
-* Evolution économique des Etats où se développe de la recherche
-* Appartenance à une école / association nationale ou transnationale
-* Interdisciplinarité des études menées
-* Correspondances et réseaux de connaissance
+* Lieu et type de formation universitaire
+* Professeur/corps professoral durant la formation
+* Ecole de pensée des chercheurs / chercheuses
+* Institutions fréquentées durant la formation ou la carrière académique
+* Ouvrages principaux publiés par les anthropologues
+* Idées utilisées dans le cadre des recherches
+
 
 ## Problématique
 
 Pour analyser l'évolution des idées et le développement de la discipline qu'est l'anthropologie, le travail de recherche s'oriente vers l'analyse du parcours de chercheurs et de leur production scientifique. 
-## Questions de recherche
-
-## Aspects de l'information à collecter
-
-* 
