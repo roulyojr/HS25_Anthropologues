@@ -8,21 +8,14 @@ Il s'agit d'une classe objet (persistent item)
 Date de début et de fin de la formation, type (philosophie, philologie, ethnographie, etc)
 
 ### Relations
-Localisation du lieu de formation
-Une formation peut être l'objet d'une participation
-(Génère une idée théorique)
+Localisation géographique du lieu de formation
+La formation éduque la personne
 
-
-## Participation
-Participer à une formation en endossant un rôle défini, durant une période donnée.
-Il s'agit d'une classe temporalité (temporal entity)
+## Arrière-plan familial
+Contexte dans lequel la personne a grandi.
 
 ### Propriétés
-Date de début et de fin de la participation, rôle endossé (professeur, étudiant, intervenant)
-
-### Relations
-Une relation de participation peut comprendre une et une seule personne, et on peut associer une (et une seule) formation auprès de laquelle l'activité est exercée.
-
+Religion pratiquée pendant la jeunesse (catholicisme, judaïsme, athéisme), statut socio-économique parental (ouvriers, profession libéral, industriels)
 
 ## Person
 Tout être humain.

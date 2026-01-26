@@ -13,6 +13,10 @@
 - date de fin (ex. 9.8. 1929)
 - type de formation (ex. philologie)
 
+### Arrière-plan familial
+- religion (judaïsme, catholicisme, islam, athéïsme, autres)
+- statut socio-économique parental (ouvriers, profession libérale)
+
 ### Organisation
 
 - nom (ex. Ecole des Hautes Etudes en Sciences Sociales(EHESS))
@@ -36,7 +40,7 @@
 - langue original (ex. allemand)
 
 ### Idée
-- groupe (ex. diffusionisme)
+- arrière-plan théorique (ex. diffusionisme)
 - nom (ex. théorie de l'évolution culturelle)
 
 ### Tag
