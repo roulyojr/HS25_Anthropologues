@@ -1,4 +1,4 @@
-* Liste d'anthropologues
+* Liste d'anthropologues en français (non utilisée)
     * https://fr.wikipedia.org/wiki/Liste_d%27anthropologues
 * List of anthropologists
     * https://en.wikipedia.org/wiki/List_of_anthropologists
