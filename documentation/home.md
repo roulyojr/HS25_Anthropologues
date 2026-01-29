@@ -14,11 +14,10 @@ Cette recherche a pour but de s'intéresser à la question de la filiation d'une
 
 ### Création de la base de données
 
+*  [Modèle conceptuel DrawIo](MCD_final.drawio)
 *  [Modèle conceptuel](MCD_final.png)
 *  [Commentaire du modèle conceptuel](commentaire_modele_conceptuel.md)
 *  [Modèle logique ou relationnel](anthropologists.db)
-
-
-### Système d'information
-
-[Table des matières] qui liste toutes les pages du wiki
+*  [Export CSV](SQL_in_CSV.csv)
+*  [Vues SQL](SQL.md)
+*  [Requêtes SPARQL](SPARQL.md)
