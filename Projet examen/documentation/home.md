@@ -8,22 +8,15 @@ Cette recherche a pour but de s'intéresser à la question de la filiation d'une
 
 ###  Phase exploratoire
 
-
 * [Problématique et questionnement](problematique-questionnement.md)
 * [Listes d'anthropologues](liste-d-anthropologues.md)
 * [Catalogue des informations](catalogue-des-informations.md)
 
 ### Création de la base de données
 
-*  [Modèle conceptuel] 
+*  [Modèle conceptuel](MCD_final.png)
 *  [Commentaire du modèle conceptuel](commentaire_modele_conceptuel.md)
-*  [Modèle logique ou relationnel]
-### Récupération et analyse de données existantes
-
-* [Explorer DBpedia]
-* [Importer les données de DBpedia]
-* [Visualiser les données de DBpedia]
-
+*  [Modèle logique ou relationnel](anthropologists.db)
 
 
 ### Système d'information

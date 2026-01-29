@@ -13,15 +13,12 @@ Une formation peut être l'objet d'une participation
 (Génère une idée théorique)
 
 
-## Participation
-Participer à une formation en endossant un rôle défini, durant une période donnée.
-Il s'agit d'une classe temporalité (temporal entity)
+## Arrière-plan socio-économique
+Informations sur la généalogie financière et social de l'individu
+Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-Date de début et de fin de la participation, rôle endossé (professeur, étudiant, intervenant)
-
-### Relations
-Une relation de participation peut comprendre une et une seule personne, et on peut associer une (et une seule) formation auprès de laquelle l'activité est exercée.
+Si disponible, statut socio-économique familial (métiers exercés, classe sociale) et religion (catholicisme, judaïsme)
 
 
 ## Person
@@ -71,7 +68,7 @@ Lieu géographique
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-Nom du lieu, État où il est situé, coordonnées géographiques
+Nom du lieu, État où il est situé
 
 ### Relations
 A comme type (caractérisation du lieu en fonction de critères topographiques, sociaux, technologiques ou historiques)
@@ -101,3 +98,15 @@ Relation réflexive (d'un classe vers elle même) qui créer une hiérarchie de 
 
 ### Propriétés
 Définition (succincte de la thèse), Arrière-plan théorique (de quel courant anthropologique est tirée la thèse, p.ex. diffusionisme, évolutionnisme, fonctionnalisme)
+
+
+## Production-Idea Association
+Fréquenter un organisme pendant une période donnée (entretien des contacts réguliers ou ponctuels avec une organisation, dont le rôle qui y est joué peut différer (professeur ordinaire, invité, étudiant))
+
+Il s'agit d'une classe d'association n à n
+
+### Propriétés
+Associe les productions aux idées théoriques
+
+### Relations
+Une relation de Production-Idée permet d'associer plusieurs productions à une idée et inversément. Dans ce cas, on créera plusiseurs entrées pour associer chaque production au nombre d'idées qu'il mobilise.

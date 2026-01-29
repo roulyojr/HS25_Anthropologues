@@ -18,7 +18,6 @@
 - statut socio-économique parental (ouvriers, profession libérale)
 
 ### Organisation
-
 - nom (ex. Ecole des Hautes Etudes en Sciences Sociales(EHESS))
 - définition (ex. Association ou Université)
 - année de fondation (ex. 8.4.1902)
@@ -26,7 +25,6 @@
 ### Emplacement géographique
 - nom (ex. Francfort)
 - nationalité (ex. allemande)
-- coordonnées géographiques (ex. 50.62464857874364, 3.062632247883132)
 
 ### Type d'emplacement
 - dénomination (ex. ville)
@@ -37,14 +35,14 @@
 - année de publication (ex. 1962)
 - revue littéraire (ex. L'Homme)
 - maison d'édition (ex. Plon)
-- langue original (ex. allemand)
+- langue originale (ex. allemand)
 
 ### Idée
 - arrière-plan théorique (ex. diffusionisme)
 - nom (ex. théorie de l'évolution culturelle)
 
 ### Tag
-- définition : catégorie de personne ou d'organisation (chercheur.euse, centre de recherche financé de manière privée...)
+- définition : catégorie d'organisation (spécialiste en anthropologie ou non, p.ex)
 
 ## Relations entre objets
 
