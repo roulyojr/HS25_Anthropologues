@@ -18,7 +18,7 @@ Informations sur la généalogie financière et social de l'individu
 Il s'agit d'une classe objet (persistent item)
 
 ### Propriétés
-Si disponible, statut socio-économique familial (métiers exercés, classe sociale) et religion (catholicisme, judaïsme)
+Si disponible, statut socio-économique familial (métiers exercés, ou type de métiers : ouvriers, profession libérale, industriels...) et religion (catholicisme, judaïsme)
 
 
 ## Person
