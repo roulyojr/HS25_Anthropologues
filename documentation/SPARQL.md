@@ -24,8 +24,24 @@
             ORDER BY ?birthYear
 
 
+            -> faiblesse : infobox ne contient pas forcément l'information de l'institution, surtout chez les chercheurs.euses moins connus
+
+
 Y a-t-il des tendances nationales quand à l'apport d'arguments théoriques en anthropologie ?
 
         Lister les anthropologues, leur nationalité et leur école de pensée
 
-        
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+SELECT ?name ?nationality ?school
+WHERE {
+  ?anthropologist dbo:occupation dbr:List_of_Anthropologists ;
+                  foaf:name ?name ;
+                  dbo:nationality ?nationality ;
+                  dbo:school ?school .
+}
+
+            théoriquement correcte mais ne fonctionne pas dans l'éditeur SPARQL
