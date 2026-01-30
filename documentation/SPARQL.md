@@ -1,6 +1,6 @@
 * Dans quels contextes nationaux sont nées les premières écoles dédiées à l'anthropologie ?
 
-        Lister les dates de naissance d'anthropologues dans l'ordre croissant et les universités pour lesquelles ils et elles travaillent (je me suis aidé du Web pour le GROUP_CONCAT et le OPTIONAL)
+        Lister les dates de naissance d'anthropologues dans l'ordre croissant et les universités pour lesquelles ils et elles travaillent (je me suis aidé du Web pour le GROUP_CONCAT et le FILTER)
 
                     SELECT ?person 
                 (STR(?label) AS ?persName) 
