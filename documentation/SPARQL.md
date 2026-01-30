@@ -26,9 +26,9 @@
 
             -> faiblesse : infobox ne contient pas forcément l'information de l'institution, surtout chez les chercheurs.euses moins connus
 
-            Correction : remplacer institution par workplaces donne plus de résultats
+            Correction : étonnement, remplacer 'institution' par 'workplace' donne plus de résultats
 
-                                SELECT ?person 
+                SELECT ?person 
                 (STR(?label) AS ?persName) 
                 ?birthYear
                 (GROUP_CONCAT(DISTINCT STR(?workplacesLabel); separator=", ") AS ?workplaces)
@@ -50,6 +50,28 @@
             ORDER BY ?birthYear
 
 
+            Requête syntaxiquement la même, mais en cherchant l'almaMater (axé formation), qui est souvent présent dans l'infobox : 
+
+                            SELECT ?person 
+                (STR(?label) AS ?persName) 
+                ?birthYear
+                (GROUP_CONCAT(DISTINCT STR(?almaMaterLabel); separator=", ") AS ?almaMater)
+            WHERE { 
+                dbr:List_of_anthropologists ?p ?person.
+
+                ?person a dbo:Person ;
+                        dbo:birthDate ?birthDate ;
+                        rdfs:label ?label .
+
+                BIND(xsd:integer(SUBSTR(STR(?birthDate), 1, 4)) AS ?birthYear)
+
+                OPTIONAL {
+                    ?person dbo:almaMater ?almaMater .
+                    ?almaMater rdfs:label ?almaMaterLabel .
+                }
+            }
+            GROUP BY ?person ?label ?birthYear
+            ORDER BY ?birthYear
 
 Y a-t-il des tendances nationales quand à l'apport d'arguments théoriques en anthropologie ?
 
