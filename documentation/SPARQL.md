@@ -50,7 +50,7 @@
             ORDER BY ?birthYear
 
 
-            Requête syntaxiquement la même, mais en cherchant l'almaMater (axé formation), qui est souvent présent dans l'infobox : 
+            Requête syntaxiquement la même, mais en cherchant l'almaMater (axé formation), qui est souvent présent dans l'infobox (presque plus de résultat si utilisation de dbp à la place de dbo)
 
                             SELECT ?person 
                 (STR(?label) AS ?persName) 
